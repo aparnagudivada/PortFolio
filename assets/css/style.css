@@ -889,5 +889,31 @@ footer {
   margin: 20px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.project-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  text-align:justify;
+  -ms-text-justify: distribute-all-lines;
+  text-align-last: left;
+  hyphens: auto;
+  font-family: Arial, sans-serif;
+  word-spacing: 0.02em; /* Adjust if needed */
+  letter-spacing: 0.02em; /* Adjust if needed */
+  word-break: break-word;
+  padding-top: 10px;
+  color: #D3D3D3
+}
 
-
+.desc{
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0; 
+  text-align:justify;
+  text-justify: inter-word; 
+  white-space: normal;
+  font-family: Arial, sans-serif; 
+  word-spacing: normal;
+  letter-spacing: normal;
+  color: #D3D3D3
+}
